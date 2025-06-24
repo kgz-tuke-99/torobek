@@ -1,0 +1,60 @@
+body{
+  margin:0 ;  
+}
+
+
+.header{
+    width: 100%;
+height:100px ;
+background-color: rgba(40, 156, 25, 0.815);
+}
+
+.header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    font-size:30px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content-one{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(31, 10, 228);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block{
+    width: 250px;
+    height: 350px; ;
+    border: 1px solid  black;
+
+}
+
+.one{
+    background-color: rgb(3, 94, 0);
+    margin: 10px;
+}
+
+.two{
+    background-color: brown;
+    margin: 10px;
+}
+.three{
+    background-color: blue;
+    margin: 10px;
+}
+.four{
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+
+   
